@@ -1,0 +1,124 @@
+ .triangle {
+    -webkit-animation-name: triangle;
+    animation-name: triangle;
+    -webkit-animation-duration: 15s;
+    animation-duration: 15s;
+    position: absolute;
+    -webkit-animation-iteration-count: infinite;
+    animation-iteration-count: infinite;
+
+}
+@keyframes triangle {
+    0% {
+        top:0;
+        right: 0px;
+    }
+    35%{
+        top: 20%;
+        right: 70%;
+    }
+
+    70% {
+        top:80%;
+        right: 30%;
+    }
+    100% {
+        top: 0%;
+        right: 0%;
+    } 
+}
+
+
+
+.triangle2 {
+    -webkit-animation-name: triangle2;
+    animation-name: triangle2;
+    -webkit-animation-duration: 15s;
+    animation-duration: 15s;
+    position: absolute;
+    -webkit-animation-iteration-count: infinite;
+    animation-iteration-count: infinite;
+}
+@keyframes triangle2 {
+    0% {
+        bottom:0;
+        left: 0px;
+    }
+    35%{
+        bottom: 0px;
+        left: 70%;
+    }
+
+    70% {
+        bottom:70%;
+        left: 20%;
+    }
+    100% {
+        bottom: 0%;
+        left: 0%;
+    } 
+} /**/
+
+
+.triangle3 {
+    -webkit-animation-name: triangle3;
+    animation-name: triangle3;
+    -webkit-animation-duration: 15s;
+    animation-duration: 15s;
+    position: absolute;
+    -webkit-animation-iteration-count: infinite;
+    animation-iteration-count: infinite;
+}
+@keyframes triangle3 {
+    0% {
+        bottom:0%;
+        right: 0%;
+    }
+    35%{
+        bottom: 30%;
+        right: 70%;
+    }
+
+    70% {
+        bottom:70%;
+        right: 20%;
+    }
+    100% {
+        bottom: 0%;
+        right: 0%;
+    } 
+}
+
+
+
+.triangle4 {
+    -webkit-animation-name: triangle4;
+    animation-name: triangle4;
+    -webkit-animation-duration: 15s;
+    animation-duration: 15s;
+    position: absolute;
+    -webkit-animation-iteration-count: infinite;
+    animation-iteration-count: infinite;
+}
+@keyframes triangle4 {
+    0% {
+        bottom:0;
+        right: 0px;
+    }
+    35%{
+        bottom: 30%;
+        right: 70%;
+    }
+
+    70% {
+        bottom:70%;
+        right: 20%;
+    }
+    100% {
+        bottom: 0%;
+        right: 0%;
+    } 
+}
+
+
+

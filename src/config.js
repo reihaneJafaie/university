@@ -1,0 +1,1 @@
+export const BASE_URL = "https://api.fitsmart.ir/v1/front/";

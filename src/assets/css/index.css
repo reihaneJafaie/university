@@ -1,0 +1,33 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@import '~sweetalert2/src/variables';
+/* $swal2-background: #990000; */
+@import '~sweetalert2/src/sweetalert2';
+@import '@vueform/multiselect/themes/default.css';
+
+
+body{
+    width: 100%;
+    overflow-x: hidden;
+    /* direction: rtl; */
+    
+}
+
+
+
+.containerFitsmart{
+    width: 90%;
+    margin: auto;
+}
+
+
+
+
+body:has(#loader) #app{
+  filter: blur(5px);
+
+}
+
+
+

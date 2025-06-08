@@ -1,0 +1,54 @@
+@font-face {
+	font-family: IRANSansX;
+	font-style: normal;
+	font-weight: bold;
+	src: url('../fonts/iransans/Woff/IRANSansXFaNum-Bold.woff') format('woff'),
+	url('../fonts/iransans/Woff2/IRANSansXFaNum-Bold.woff2') format('woff2');
+}
+
+@font-face {
+	font-family: IRANSansX;
+	font-style: normal;
+	font-weight: normal;
+	src: url('../fonts/iransans/Woff/IRANSansXFaNum-Regular.woff') format('woff'),
+	url('../fonts/iransans/Woff2/IRANSansXFaNum-Regular.woff2') format('woff2');
+}
+
+
+/* ************  fa  ************ */
+body * {
+	font-family: IRANSansX;
+}
+.font-300, .font-light {
+  font-family: IRANSansX;
+  font-weight: 300;
+}
+ .font-400,
+ .font-regular {
+  font-family: IRANSansX;
+  font-weight: 400;
+}
+ .font-500,
+ .font-medium {
+  font-family: IRANSansX;
+  font-weight: 500;
+}
+ .font-600,
+ .font-semibold {
+  font-family: IRANSansX;
+  font-weight: 600;
+}
+ .font-700,
+ .font-bold {
+  font-family: IRANSansX;
+  font-weight: 700;
+}
+ .font-900,
+ .font-black {
+  font-family: IRANSansX;
+  font-weight: 900;
+}
+.font-500-fa-num {
+  font-family: IRANSansX ;
+  font-weight: 500;
+}
