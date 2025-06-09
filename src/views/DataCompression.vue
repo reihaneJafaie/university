@@ -1,12 +1,12 @@
 <template>
-  <section class="container mx-auto p-6 min-h-screen bg-secondary flex gap-6">
+  <section class="container mx-auto p-4 md:p-6 min-h-screen bg-secondary flex flex-col md:flex-row gap-4 md:gap-6">
     <!-- ستون خروجی (چپ) -->
-    <div class="flex-1 bg-white p-6 rounded-lg border border-gray-200 shadow min-h-[300px]">
+    <div class="flex-1 bg-white p-4 md:p-6 rounded-lg border border-gray-200 shadow min-h-[300px]">
       <component :is="currentComponent" />
     </div>
 
     <!-- ستون لیست الگوریتم‌ها (راست) -->
-    <div class="w-[20%] bg-gray-50 rounded-lg border border-gray-200 shadow p-4">
+    <div class="w-full md:w-[20%] bg-gray-50 rounded-lg border border-gray-200 shadow p-4">
       <h2 class="text-xl font-bold mb-4 text-right">الگوریتم‌ها</h2>
       <ul class="flex flex-col gap-3 text-right">
         <li
@@ -25,6 +25,7 @@
   </section>
 </template>
 
+
 <script setup>
 import { ref, computed } from 'vue'
 
@@ -37,6 +38,10 @@ import LZW from '../components/DataCompression/LZW.vue'
 import ArithmeticCoding from '../components/DataCompression/ArithmeticCoding.vue'
 import preorder from '../components/DataCompression/preorder.vue'
 import DecoderPreorder from '../components/DataCompression/DecoderPreorder.vue'
+import ShannonFano from '../components/DataCompression/ShannonFano.vue'
+import Huffman from '../components/DataCompression/Huffman.vue'
+import AdaptiveHuffman from '../components/DataCompression/AdaptiveHuffman.vue'
+import UpdateTreeHuffman from '../components/DataCompression/UpdateTreeHuffman.vue'
 
 // import LZWOutput from './outputs/LZWOutput.vue'
 // import RLEOutput from './outputs/RLEOutput.vue'
@@ -51,8 +56,11 @@ const algorithms = [
    { name: 'LZW', component: LZW },
    { name: 'ArithmeticCoding', component: ArithmeticCoding },
    { name: 'preorder', component: preorder },
-
   { name: 'DecoderPreorder', component: DecoderPreorder },
+  { name: 'ShannonFano', component: ShannonFano },
+  { name: 'Huffman', component: Huffman },
+  { name: 'AdaptiveHuffman', component: AdaptiveHuffman },
+  { name: 'UpdateTreeHuffman', component: UpdateTreeHuffman },
 
  
 ]

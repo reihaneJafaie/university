@@ -6,7 +6,7 @@
       <textarea
         v-model="input"
         class="w-full h-32 p-3 border border-gray-300 rounded-md resize-none focus:outline-none focus:ring-2 focus:ring-indigo-500"
-        placeholder="متن را اینجا وارد کنید..."
+        placeholder="سلام سلام سلام خوبی خوبی چطوری چطوری خوبی"
       ></textarea>
 
       <button

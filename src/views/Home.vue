@@ -20,13 +20,7 @@
 <script setup>
 const courses = [
   { name: 'فشرده‌سازی داده‌ها', code: 'CS402' , route: '/data-compression' },
-  { name: 'نظریه محاسبات', code: 'CS305', route: '/' },
-  { name: 'برنامه‌سازی پیشرفته', code: 'CS202' , route: '/'},
-  { name: 'ساختمان داده', code: 'CS201' , route: '/'},
-  { name: 'پایگاه داده', code: 'CS303', route: '/' },
-  { name: 'معماری کامپیوتر', code: 'CS204' , route: '/'},
-  { name: 'سیستم عامل', code: 'CS304', route: '/' },
-  { name: 'شبکه‌های کامپیوتری', code: 'CS401', route: '/' },
+ 
 ]
 </script>
 
